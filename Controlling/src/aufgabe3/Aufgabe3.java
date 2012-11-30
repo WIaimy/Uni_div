@@ -54,9 +54,9 @@ public class Aufgabe3 {
 					richtung = 1;
 				
 				if(richtung == 1){									//Addieren bzw. subtrahieren
-					ergebnis += d;
+					ergebnis += richtung*d;
 				}else{
-					ergebnis -= d;
+					ergebnis -= richtung*d;
 				}
 			}
 			System.out.println("Ergebnis:\t" + ergebnis);
